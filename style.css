@@ -1,0 +1,151 @@
+a {
+  color: hotpink;
+  
+  
+  /*
+    Be careful when removing the underline from links
+    Make sure there is still enough contrast to understand the text as a link
+  */
+  
+ 
+}
+
+
+/* Links have a bunch of states that we can also style when a user interacts: */
+
+/* unvisited link - for styling the default link state */
+a:link {
+  color: hotpink;
+  
+}
+
+/* visited link - for styling the link after it’s been visited by the user*/
+a:visited {
+  color: limegreen;
+}
+
+/* mouse over link - for styling the link when the mouse is sitting over it */
+a:hover {
+  color: orange;
+}
+
+/* focus link - for styling the link when the keyboard has tab-focused it */
+a:focus {
+  color: blue;  
+}
+
+/* selected link - for styling the link when the mouse button is press  ed down on it */
+a:active {
+color: purple}
+
+/* NOTE: a:link is for not visited, a:visited is for visited, and just a applies to both. */
+
+
+
+/* Additional examples: */
+
+.one:link{ color: #df2e38;}
+.one:visited{ color: #0000ff;}
+.one:hover,
+.one:focus{ color: #ffcc00;}
+
+.two:link { color:ff8b13;}
+.two:visited { color: #0000ff;}
+.two:hover,
+.two:focus{ 
+  font-size: 2rem;
+}
+
+.three:link { color: #5f8d4e;}
+.three:visited { color: #0000ff;}
+.three:hover,
+.three:focus {
+  background-color: #6f6;
+}
+
+.four:link,
+.four:visited{ color: #00337c;}
+.four:hover,
+.four:focus { font-family: monospace;}
+
+.five:link,
+.five:visited{ color: #66347f;
+text-decoration: none;}
+
+.five:hover,
+.five:focus{ text-decoration: underline;}
+
+
+
+
+
+
+
+
+
+/* Link button: */
+
+a.button:link,
+a.button:visited{
+  background-color: white;
+  color: green;
+  border: 2px solid green;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a.button:hover,
+a.button:focus{
+  background-color: green;
+  color: white;
+
+}
+
+a.button:active{
+  background-color: pink;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General styling. No need to update. */
+
+section {
+  padding: 1em 0;
+}
+
+div {
+  padding: .25em 0;
+}
+
+
